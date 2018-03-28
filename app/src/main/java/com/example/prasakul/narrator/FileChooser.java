@@ -107,7 +107,7 @@ public class FileChooser {
             int i = 0;
             String[] fileList;
             if(dirs == null || files == null){
-                //return;
+                return;
             }else{
                 if (path.getParentFile() == null) {
                     fileList = new String[dirs.length + files.length];
